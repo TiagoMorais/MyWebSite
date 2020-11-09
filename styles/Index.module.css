@@ -1,0 +1,12 @@
+.container_headers{
+    display: flex;
+}
+
+.header1{
+    font-size: 40px;
+}
+
+.header2{
+    font-size: 30px;
+}
+
