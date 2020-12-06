@@ -6,6 +6,9 @@
     box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
     z-index: 2;
     position: absolute;
+
+    display: flex;
+flex-direction: column;
 }
 
 .menu_container:hover {

@@ -56,18 +56,23 @@ export default function Home(ref) {
                 </div>
             </div>
             <div className={styles.menu_links_container} ref={menuContainerDiv}>
+                <a href="/">
                 <div className={styles.menu_link}>
                     <img src="/icons/home-black-18dp.svg" className={styles.home_icon} />
                     <p>Home</p>
                 </div>
+                </a>
+             
                 <div className={styles.menu_link}>
                     <img src="/icons/face-black-18dp.svg" className={styles.home_icon} />
                     <p>Portefólio</p>
                 </div>
+                <a href="/about">
                 <div className={styles.menu_link}>
                     <img src="/icons/work-24px.svg" className={styles.home_icon} />
                     <p>Sobre mim</p>
                 </div>
+                </a>
                 <div className={styles.menu_link}>
                     <img src="/icons/contact_page-24px.svg" className={styles.home_icon} />
                     <p>Currículo</p>
