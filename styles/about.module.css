@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.about_container{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.about_container2{
+    display: flex;
+    font-size: 30px;
+    width: 70%;
+}
+
+.about_header{
+    font-size: 70px;
+    margin: 0px;
+}
+
+.photo{
+    border-radius: 50%;
+    background: gray;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    margin: 25px;
+}
+
+.services{
+    font-size: 70px;
+}
+
+.panels_container{
+
+}
+
+.panel{
+    background: #4D4D4D;
+    max-width: 400px;
+}
