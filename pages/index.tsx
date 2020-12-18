@@ -9,10 +9,10 @@ export default function Home() {
     <div className={_global_styles.app_container} >
       <Menu />
       <div className={_global_styles.content_container}  >
- 
+          <div className={styles.container_headers}>
           <div className={styles.header1}>Tiago Morais</div>
           <div className={styles.header2}>Full Stack Developer</div>
-     
+          </div>
       </div>
     </div>
   )
